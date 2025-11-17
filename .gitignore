@@ -1,0 +1,38 @@
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (MTJ)
+.local.properties
+.externalToolBuilders/
+*.jar
+
+# Package Files #
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Maven
+target/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.settings/
+.project
+.classpath
+
+# OS
+.DS_Store
+Thumbs.db
