@@ -1,5 +1,13 @@
 package com.itheima.pojo;
 
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
 public class User {
     private Integer id;
     private String name;
@@ -7,7 +15,7 @@ public class User {
     private Short gender;
     private String phone;
 
-    public User(Integer id, String name, Short age, Short gender, String phone) {
+/*    public User(Integer id, String name, Short age, Short gender, String phone) {
         this.id = id;
         this.name = name;
         this.age = age;
@@ -67,5 +75,5 @@ public class User {
                 ", gender=" + gender +
                 ", phone='" + phone + '\'' +
                 '}';
-    }
+    }*/
 }
